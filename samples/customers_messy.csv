@@ -1,0 +1,228 @@
+﻿Cust ID,Full Name,E-mail,Age (yrs),Account Balance,Signup,Tier,Marketing Opt-In,Notes
+X1,Casey Sample,casey.sample1@example.com,37,14474.38,2021-12-07,PLATINUM,Y,"called on Monday, no answer"
+C000002,Casey Example,casey.example2@example.com,77,11522.79,2021-01-17,Bronze,TRUE,"called on Monday, no answer"
+C000003,Sam Fixture,sam.fixture3@example.com,68,10304.09,2019-06-06,Silver,TRUE,
+C000004,Jamie Testcase,jamie.testcase4@example.com,28,478.10,23 May 2018,GOLD,no,"address line 1
+line 2"
+C000005,Sam Example,sam.example5@example.com,62,10294.06,23.05.2018,Gold,no,
+C000006,Alex Dummy,alex.dummy6@example.com,23,9255.07,3 Feb 2018,Silver,N,
+"c000007 ",Alex Mockup,alex.mockup7@example.com,20,18265.95,14.02.2025,Silver,yes,prefers email
+C000008,Casey Testcase,casey.testcase8@example.com,39,18140.53,1 Jul 2022,bronze,false,
+C000009,Sam Placeholder,sam.placeholder9@example.com,42,15511.01,2019-02-20,Bronze,1,see ticket #1234
+C000010,Jamie Testcase,jamie.testcase10@example.com,58,19796.06,2022-12-28,silver,yes,
+C000011,,11@example.com,24,19869.36,2018-12-06," silver",TRUE,"VIP, handle with care"
+
+C000012,Jordan Fixture,jordan.fixture12@example.com,79,5552.91,07.03.2022,GOLD,Y,
+C000013,Quinn Fixture,quinn.fixture13@example.com,75,2661.15,2024-10-09,Silver,1,"address line 1
+line 2"
+C000014,Taylor Fixture,taylor.fixture14@example.com,50,6931.49,22.05.2025,gold,TRUE,
+C000014,Jamie Testcase,jamie.testcase15@example.com,61,7970.59,16 Dec 2018,platinum,no,prefers email
+C000016,Avery Dummy,avery.dummy16@example.com,38,6760.66,11 Jan 2022,bronze,0,
+C000017,Avery Mockup,avery.mockup17@example.com,23,8381.25,4 Mar 2024,platinum,false,"called on Monday, no answer"
+C000018,Sam Mockup,sam.mockup18@example.com,33,12667.24,3 Nov 2021,bronze,Y,"called on Monday, no answer"
+C000019,Casey Dummy,casey.dummy19@example.com,60,3930.95,2025-03-02,BRONZE,Y,
+C000020,Avery Placeholder,avery.placeholder20@example.com,44,9048.47,08.11.2023," platinum",TRUE,
+C000021,Casey Mockup,casey.mockup21@example.com,46,19120.25,08.08.2018," platinum",false,"VIP, handle with care"
+C000022,Casey Example,casey.example22@@example.com,83,8189.04,09.03.2023," platinum",false,"address line 1
+line 2"
+C000023,Alex Mockup,alex.mockup23@example.com,56,7267.38,2020-08-20,Gold,1,
+X24,Avery Testcase,avery.testcase24@example.com,89,6993.88,02.01.2018,SILVER,no,"said ""call back later"""
+C000025,Riley Sample,riley.sample25@example.com,64,13032.06,06.08.2024," gold",N,
+C000026,Casey Mockup,casey.mockup26@example.com,48,13076.28,22 Jun 2025," bronze",1,"VIP, handle with care"
+C000027,Casey Dummy,casey.dummy27@example.com,50,19795.66,6 Nov 2021," bronze",N,
+C000028,Alex Fixture,alex.fixture28@example.com,51,6144.79,17 Sep 2021,SILVER,no,"VIP, handle with care"
+C000029,Quinn Placeholder,quinn.placeholder29@example.com,33,18942.05,08.10.2024,gold,1,
+C000030,Riley Fixture,riley.fixture30@example.com,59,3037.47,2020-11-22,SILVER,yes,"said ""call back later""",extra
+C000031,Avery Dummy,avery.dummy31@example.com,47,11945.07,27 Dec 2018,Silver,yes,
+C000032,Jamie Placeholder,jamie.placeholder32@example.com,70,"1,234.56",27.10.2024,silver,TRUE,"VIP, handle with care"
+C000033,Alex Dummy,alex.dummy33@example.com,86,16950.18,7 Jun 2019,platinum,TRUE,prefers email
+C000034,Jordan Dummy,jordan.dummy34@example.com,44,11485.38,15 Jan 2025,bronze,Y,"VIP, handle with care"
+C000035,Sam Fixture,sam.fixture35@example.com,55,19366.40,27.03.2018," gold",no,
+
+C000036,Taylor Placeholder,taylor.placeholder36@example.com,89,14181.12,12 Feb 2020,Silver,1,
+C000037,Quinn Fixture,quinn.fixture37@example.com,88,6269.44,01.11.2019,platinum,yes,"VIP, handle with care"
+C000038,Jamie Fixture,jamie.fixture38@example.com,36,17555.67,31.01.2019," gold",TRUE,"called on Monday, no answer"
+C000039,Taylor Example,taylor.example39@example.com,26,2143.01,15.10.2021," silver",0,
+C000040,Taylor Dummy,taylor.dummy40@example.com,88,6736.00,2020-03-08,Silver,yes,
+C000041,Jamie Mockup,jamie.mockup41@example.com,52,18200.09,19 Apr 2021," bronze",no,"address line 1
+line 2"
+C000042,Jamie Testcase,jamie.testcase42@@example.com,57,9515.36,2025-07-22," gold",N,"called on Monday, no answer"
+C000043,Sam Placeholder,sam.placeholder43@example.com,21,2434.07,2019-04-29,Bronze,Y,see ticket #1234
+C000044,Alex Fixture,alex.fixture44@example.com,21,3041.14,18 May 2022,platinum,yes,"said ""call back later"""
+C000045,Alex Example,alex.example45@example.com,90,5902.68,2018-12-13,BRONZE,no,
+C000046,Morgan Example,morgan.example46@example.com,55,14455.59,13.10.2024," silver",1,
+C000047,Casey Example,casey.example47@example.com,83,17059.08,13 Jul 2021,Bronze,1,
+C000048,,48@example.com,24,16236.15,2024-10-12,PLATINUM,N,"address line 1
+line 2"
+C000049,Morgan Sample,morgan.sample49@example.com,48,7188.77,2018-04-25,Gold,yes,prefers email
+C000050,Quinn Example,quinn.example50@example.com,21,5004.55,03.04.2018,silver,false,
+C000051,Avery Example,avery.example51@example.com,23,3390.97,08.12.2020," gold",TRUE,"address line 1
+line 2"
+C000052,Avery Example,avery.example52@example.com,81,10717.30,03.08.2019,Gold,no,"address line 1
+line 2"
+C000053,Taylor Placeholder,taylor.placeholder53@example.com,51,14009.67,2023-01-07,gold,0,"address line 1
+line 2"
+C000054,Casey Mockup,casey.mockup54@example.com,87,10663.05,2024-13-45,gold,N,
+C000055,Taylor Placeholder,taylor.placeholder55@example.com,24,8541.12,2018-10-06,platinum,false,see ticket #1234
+C000056,Avery Sample,avery.sample56@example.com,51,8473.68,4 Aug 2018,platinum,0,see ticket #1234
+C000057,Sam Dummy,sam.dummy57@example.com,57,9772.74,14.04.2018,Bronze
+C000058,Alex Example,alex.example58@example.com,70,14714.68,16 Jul 2023,Gold,TRUE,see ticket #1234
+C000059,Taylor Sample,taylor.sample59@example.com,78,616.57,15.09.2018,PLATINUM,1,see ticket #1234
+C000060,Taylor Fixture,taylor.fixture60@example.com,56,17580.68,12.05.2025,BRONZE,TRUE,"address line 1
+line 2"
+C000061,Jordan Fixture,jordan.fixture61@example.com,35,15634.25,2021-11-23,silver,Y,
+C000062,Jordan Mockup,jordan.mockup62@example.com,29,14363.84,04.02.2023,GOLD,0,prefers email
+C000063,Morgan Mockup,morgan.mockup63@example.com,72,4773.50,2024-04-19,Gold,1,
+C000064,Sam Fixture,sam.fixture64@example.com,56,9911.92,21.02.2023," platinum",no,
+C000065,Morgan Testcase,morgan.testcase65@example.com,45,3050.94,29.06.2018,bronze,1,prefers email
+C000066,Taylor Example,taylor.example66@example.com,21,4574.14,2020-09-14,GOLD,TRUE,see ticket #1234
+C000067,Alex Sample,alex.sample67@example.com,50,5037.36,2020-09-17,GOLD,yes,"called on Monday, no answer"
+C000068,Jamie Placeholder,jamie.placeholder68@example.com,56,18259.42,1 May 2018,gold,0,"address line 1
+line 2"
+C000069,Morgan Dummy,morgan.dummy69@example.com,85,2184.01,17.08.2022," silver",TRUE,"address line 1
+line 2"
+C000070,Sam Dummy,sam.dummy70@example.com,54,7175.29,2023-08-07,platinum,no,"said ""call back later"""
+C000071,Casey Dummy,casey.dummy71@example.com,28,17250.17,22 Aug 2020," bronze",yes,"VIP, handle with care"
+C000072,Jordan Placeholder,jordan.placeholder72@example.com,58,12869.44,27.01.2018,GOLD,N,"address line 1
+line 2"
+C000073,Morgan Testcase,morgan.testcase73@example.com,23,10189.82,2024-12-03,silver,Y,
+C000074,Jordan Mockup,jordan.mockup74@example.com,23,2320.04,14.12.2022," platinum",false,see ticket #1234
+C000075,Casey Example,casey.example75@example.com,83,16618.81,10.03.2018,silver,yes,see ticket #1234
+C000076,Casey Placeholder,casey.placeholder76@example.com,78,9715.95,2018-06-17,diamond,0,prefers email
+C000077,Morgan Dummy,morgan.dummy77@example.com,82,9302.08,19.05.2020,bronze,false,"address line 1
+line 2"
+C000078,Jamie Fixture,jamie.fixture78@example.com,71,13417.20,31.12.2023,BRONZE,N,
+C000079,Avery Fixture,avery.fixture79@example.com,63,186.05,18 Jul 2019," platinum",N,"said ""call back later"""
+C000080,Alex Placeholder,alex.placeholder80@example.com,60,16331.21,21 Nov 2024,Gold,N,see ticket #1234
+C000081,Taylor Testcase,taylor.testcase81@example.com,88,19790.84,2019-09-06," bronze",0,see ticket #1234
+C000082,Quinn Example,quinn.example82@example.com,67,1539.95,1 Jan 2018,BRONZE,false,
+C000083,Jamie Testcase,jamie.testcase83@example.com,26,13474.00,15.12.2021,silver,1,
+C000084,Avery Dummy,avery.dummy84@example.com,36,3458.46,14.03.2022,PLATINUM,false,
+C000085,Alex Placeholder,alex.placeholder85@example.com,71,12346.90,2025-02-03,SILVER,0,"address line 1
+line 2"
+C000086,Sam Testcase,sam.testcase86@example.com,75,4641.76,1 Aug 2021,Platinum,1,"VIP, handle with care"
+C000087,Riley Fixture,riley.fixture87@example.com,66,5482.98,19.02.2020,Silver,1,prefers email
+C000088,Riley Dummy,riley.dummy88@example.com,85,10085.79,08.11.2023,BRONZE,1,prefers email
+C000089,Avery Mockup,avery.mockup89@example.com,62,2119.19,2020-05-14," bronze",Y,"called on Monday, no answer"
+C000090,Sam Fixture," SAM.FIXTURE90@EXAMPLE.COM ",21,8604.19,2022-03-02,platinum,TRUE,"called on Monday, no answer"
+C000091,Quinn Example,quinn.example91@example.com,58,1474.82,2022-11-21," platinum",N,"said ""call back later"""
+C000092,Taylor Testcase,taylor.testcase92@example.com,27,5374.96,2023-02-20,platinum,yes,"said ""call back later"""
+C000093,Riley Example,riley.example93@example.com,25,2829.28,2021-06-14,bronze,no,see ticket #1234
+C000094,Jordan Fixture,jordan.fixture94@example.com,75,3637.78,10 Jun 2025,SILVER,maybe,
+C000095,Sam Testcase,sam.testcase95@example.com,74,115.98,08.12.2019," gold",N,"said ""call back later"""
+C000096,Alex Testcase,alex.testcase96@example.com,53,98.77,04.06.2025,bronze,1,prefers email
+C000097,Sam Dummy,sam.dummy97@example.com,30,2579.28,12 Aug 2021,diamond,false,see ticket #1234
+C000098,Jamie Dummy,jamie.dummy98@example.com,56,7759.02,2024-08-20," gold",false,prefers email
+C000099,,99@example.com,70,19423.97,2023-06-02," gold",no,"said ""call back later"""
+C000100,Jamie Fixture,jamie.fixture100@example.com,40,757.87,13 Apr 2021,Platinum,0,prefers email
+C000101,Alex Testcase,alex.testcase101@example.com,35,"12,50",2020-08-27,bronze,N,"address line 1
+line 2"
+C000102,Morgan Fixture,morgan.fixture102@example.com,60,4580.42,2018-09-28,Platinum,0,
+C000103,Alex Sample,alex.sample103@example.com,55,3748.28,2021-01-17,PLATINUM,yes,prefers email
+C000104,Sam Example,sam.example104@example.com,29,13864.34,24.10.2023,GOLD,no,
+C000105,Alex Example,alex.example105@example.com,44,19418.61,14.08.2022,GOLD,no,prefers email
+C000106,Riley Dummy,riley.dummy106@example.com,90,9119.55,2019-02-16,GOLD,TRUE,"said ""call back later"""
+"c000107 ",Jordan Dummy,jordan.dummy107@example.com,29,11188.95,24 Sep 2024,platinum,0,
+C000108,Casey Mockup,casey.mockup108@example.com,68,91.95,24 Dec 2023," platinum",false,see ticket #1234
+C000109,Sam Mockup,sam.mockup109@example.com,29,687.70,2021-09-06,silver,Y,"address line 1
+line 2",extra
+C000110,Riley Testcase,riley.testcase110@example.com,82,271.29,11 Apr 2023," gold",1,see ticket #1234
+C000111,Avery Sample,avery.sample111@example.com,32,13589.66,12 Jan 2020," gold",false,"said ""call back later"""
+C000112,Riley Mockup,riley.mockup112@example.com,29,10945.83,2024-12-11,PLATINUM,N,prefers email
+C000113,Morgan Fixture,morgan.fixture113@example.com,36,17065.84,13.05.2022,Gold,0,
+C000114,Sam Sample,sam.sample114@example.com,23,18092.79,2025-01-13,silver,false,
+C000115,Alex Testcase,alex.testcase115@example.com,41,1590.23,2024-13-45,Bronze,no,
+C000116,Taylor Example,taylor.example116@example.com,72,1917.97,28 Jan 2021," silver",1,
+C000117,Taylor Example,taylor.example117@example.com,33,9870.79,10.08.2020," bronze",1,
+C000118,Morgan Fixture,morgan.fixture118@example.com,40,15720.95,2021-03-14," platinum",no,
+C000119,Jordan Example,jordan.example119@example.com,89,1480.82,25.01.2020,GOLD,yes,
+C000120,Avery Sample,avery.sample120@example.com,83,13440.41,23.08.2020,SILVER,TRUE,
+C000121,Riley Placeholder,riley.placeholder121@example.com,89,11509.77,11.08.2020,BRONZE,yes,
+C000122,Riley Example,riley.example122@example.com,18,18988.19,2021-11-23," silver",false,
+C000123,Sam Example,sam.example123@example.com,18,15109.39,29 Jan 2025,BRONZE,Y,"called on Monday, no answer"
+C000124,Riley Sample,riley.sample124@example.com,80,9784.16,26 Jan 2025,Bronze,false,"said ""call back later"""
+C000125,Morgan Testcase,morgan.testcase125@example.com,60,13376.81,2024-01-26,Silver,1,"VIP, handle with care"
+C000126,Riley Testcase,riley.testcase126@example.com,34,2637.46,2018-11-25,BRONZE,0,
+C000127,Jordan Fixture,jordan.fixture127@example.com,53,4190.15,10.03.2024,Bronze,yes,"VIP, handle with care"
+C000128,Taylor Placeholder,taylor.placeholder128@example.com,33,688.63,20 Jan 2018,bronze,0,"said ""call back later"""
+C000129,Casey Example,casey.example129@example.com,51,14049.20,15 Feb 2022,SILVER,yes,
+C000130,Jamie Sample,jamie.sample130@example.com,78,4478.22,9 Jul 2022,bronze,false,"said ""call back later"""
+C000131,Alex Fixture,alex.fixture131@example.com,27,18813.16,16.09.2018,Gold,yes,"VIP, handle with care"
+C000132,Quinn Placeholder,quinn.placeholder132@example.com,21,3699.74,2020-05-13,GOLD,yes,prefers email
+C000133,Quinn Fixture,quinn.fixture133@example.com,35,17877.32,2021-10-01,gold,Y,"VIP, handle with care"
+C000134,Jamie Placeholder,jamie.placeholder134@example.com,23,10941.61,29 Dec 2022,platinum,1,
+C000135,Quinn Placeholder,quinn.placeholder135@example.com,79,2625.20,15.03.2023,Gold
+C000136,Sam Example,sam.example136@example.com,38,15656.44,2021-03-27," platinum",N,"address line 1
+line 2"
+C000137,Morgan Sample,morgan.sample137@example.com,58,6817.11,29 Nov 2018,GOLD,yes,"called on Monday, no answer"
+C000138,Jamie Mockup,jamie.mockup138@example.com,38,19361.33,21.03.2024,gold,Y,see ticket #1234
+C000139,Riley Dummy,riley.dummy139@example.com,67,4927.64,2019-10-03,gold,TRUE,
+C000140,Sam Testcase,sam.testcase140@example.com,38,2720.64,2022-01-24,Gold,N,"called on Monday, no answer"
+C000141,Jamie Fixture,jamie.fixture141@example.com,67,1365.37,2019-07-29,Gold,1,"VIP, handle with care"
+C000142,Sam Testcase,sam.testcase142@example.com,85,15685.36,28 Jan 2018,Bronze,N,see ticket #1234
+C000143,Alex Testcase,alex.testcase143@example.com,46,4175.84,2020-08-24,SILVER,TRUE,"VIP, handle with care"
+C000144,Riley Placeholder,riley.placeholder144@example.com,58,12054.33,3 Aug 2021," platinum",0,see ticket #1234
+C000145,Sam Dummy,sam.dummy145@example.com,59,14342.01,18.11.2021,silver,yes,
+C000146,Jamie Placeholder,jamie.placeholder146@example.com,29,8541.90,13.10.2021," silver",false,"said ""call back later"""
+C000147,Jordan Testcase,jordan.testcase147@example.com,27,13522.76,17.08.2019,GOLD,N,
+C000148,Casey Placeholder,casey.placeholder148@example.com,61,7087.63,12.09.2021," silver",N,"address line 1
+line 2"
+C000149,Casey Testcase,casey.testcase149@example.com,80,1155.18,24 Oct 2021,Bronze,0,
+C000150,Jamie Mockup,jamie.mockup150@@example.com,58,10642.29,03.02.2025," gold",0,"VIP, handle with care"
+
+C000151,Jordan Sample,jordan.sample151@example.com,76,1923.87,14.07.2021,BRONZE,false,"said ""call back later"""
+C000152,Jamie Fixture,jamie.fixture152@example.com,53,17216.81,2021-12-28,SILVER,TRUE,
+C000153,Casey Testcase,casey.testcase153@example.com,41,11510.76,15.02.2025,PLATINUM,Y,"VIP, handle with care"
+C000154,Avery Fixture,avery.fixture154@example.com,20,10793.59,01.05.2019,gold,TRUE,prefers email
+C000155,Quinn Dummy,quinn.dummy155@example.com,44,16904.29,2021-12-23,BRONZE,1,see ticket #1234
+C000156,,156@example.com,49,14233.81,2022-11-10,PLATINUM,no,
+
+C000157,Sam Testcase,sam.testcase157@example.com,79,19288.01,28 May 2019,Platinum,no,
+C000158,Jordan Dummy,jordan.dummy158@example.com,72,15077.18,04.09.2024," platinum",1,prefers email
+C000159,Jordan Example,jordan.example159@example.com,69,9936.62,12 Sep 2023,platinum,1,
+C000160,Riley Example,riley.example160@example.com,46,3718.94,12 Apr 2021," bronze",0,
+C000161,,161@example.com,35,894.68,2022-12-23,GOLD,0,"address line 1
+line 2"
+C000162,Avery Testcase,avery.testcase162@example.com,40,5624.89,2025-05-21,platinum,yes,"VIP, handle with care"
+C000163,Avery Mockup,avery.mockup163@example.com,47,18862.99,2022-05-03,Bronze,no,
+C000164,Jamie Fixture,jamie.fixture164@example.com,88,3485.26,2024-11-14," silver",yes,
+C000165,Alex Testcase,alex.testcase165@example.com,28,18291.01,05.08.2018," silver",Y,
+C000166,Taylor Example,taylor.example166@example.com,24,12544.96,01.11.2024,Bronze,TRUE,"VIP, handle with care"
+X167,Jamie Fixture,jamie.fixture167@example.com,20,11419.76,1 Dec 2022,Platinum,TRUE,see ticket #1234
+C000168,Riley Dummy,riley.dummy168@example.com,85,6968.47,02.12.2019," bronze",TRUE,"VIP, handle with care"
+C000169,Morgan Mockup,morgan.mockup169@example.com,20,8559.67,2024-10-10,PLATINUM,TRUE,
+C000170,Jamie Mockup,jamie.mockup170@example.com,52,118.03,16.10.2024,bronze,0,"said ""call back later"""
+C000171,Riley Testcase,riley.testcase171@example.com,57,203.61,17 Dec 2024,PLATINUM,yes,see ticket #1234
+C000172,Jamie Sample,jamie.sample172@example.com,82,13006.69,6 Feb 2021," silver",no,"said ""call back later"""
+C000173,Alex Example,alex.example173@example.com,55,6012.38,2022-12-14,platinum,0,"address line 1
+line 2"
+C000174,Jamie Dummy,jamie.dummy174@example.com,31,2811.24,26.12.2020,bronze,N,
+C000175,Riley Placeholder,riley.placeholder175@example.com,51,15767.14,06.09.2019,BRONZE,TRUE,see ticket #1234
+C000176,Sam Mockup,sam.mockup176@example.com,51,172.32,22.02.2025,SILVER,N,prefers email
+C000177,Riley Sample,riley.sample177@example.com,84,15905.80,10 Sep 2020,Bronze,TRUE,"VIP, handle with care"
+C000178,Jordan Mockup,jordan.mockup178@example.com,29,11377.97,31.02.2023," platinum",false,"address line 1
+line 2"
+C000179,Alex Dummy,alex.dummy179@example.com,35,3195.53,17.02.2020,PLATINUM,false,"said ""call back later"""
+C000180,Quinn Dummy,quinn.dummy180@example.com,34,18290.15,25 Apr 2020," silver",0,"VIP, handle with care"
+C000181,Jamie Mockup,jamie.mockup181@example.com,28,15372.09,2020-02-01,bronze,yes,see ticket #1234
+C000182,Riley Mockup,riley.mockup182@example.com,43,10709.38,2023-10-19,Gold,no,see ticket #1234
+C000183,Morgan Mockup,morgan.mockup183@example.com,75,12448.58,2024-13-45,gold,N,"said ""call back later"""
+
+C000184,Casey Placeholder,casey.placeholder184@example.com,61,18534.15,14.04.2022,Silver,0,"VIP, handle with care"
+C000185,Sam Dummy,sam.dummy185@example.com,34,15808.46,2024-10-30,bronze,0,prefers email
+C000186,Avery Fixture,avery.fixture186@example.com,42,17270.23,30 Jun 2020,Bronze,Y,
+C000187,Taylor Fixture,taylor.fixture187@example.com,55,5341.19,2019-08-08,bronze,no,"called on Monday, no answer"
+C000188,Casey Mockup,casey.mockup188@example.com,69,7549.00,2025-02-03,PLATINUM,Y,
+C000189,Quinn Testcase,quinn.testcase189@example.com,37,17671.53,26 Jun 2023,SILVER,TRUE,"called on Monday, no answer"
+C000190,Avery Placeholder,avery.placeholder190@example.com,59,"12,50",29.07.2018,Bronze,Y,"address line 1
+line 2"
+C000191,Jordan Example,jordan.example191@example.com,77,9544.47,12 Jul 2018," platinum",TRUE,"VIP, handle with care"
+C000192,,192@example.com,90,1277.96,21 Jun 2019,PLATINUM,N,prefers email
+C000193,Riley Mockup,riley.mockup193@example.com,50,1897.26,4 Feb 2022,BRONZE,no,
+C000194,Taylor Sample,taylor.sample194@example.com,63,12498.03,29 Dec 2023," platinum",TRUE,
+C000195,Jordan Placeholder,jordan.placeholder195@example.com,45,17825.04,17 Jun 2023,gold,1,"VIP, handle with care"
+C000196,Avery Mockup,avery.mockup196@example.com,38,8719.45,5 Oct 2018,Platinum,yes,
+C000197,Sam Testcase,sam.testcase197@example.com,70,13085.86,13.06.2018," silver",Y,"VIP, handle with care"
+C000198,Morgan Example,morgan.example198@example.com,56,8931.15,2022-04-26,Silver,yes,
+C000199,Morgan Sample,morgan.sample199@example.com,abc,11492.60,2022-03-19,gold,0,
+C000200,Quinn Testcase,quinn.testcase200@example.com,67,19941.45,16 Apr 2025,silver,false,"called on Monday, no answer"

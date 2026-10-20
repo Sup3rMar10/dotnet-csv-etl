@@ -1,0 +1,58 @@
+name: ci
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  build-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-dotnet@v6
+        with:
+          dotnet-version: 10.0.x
+
+      - name: Restore
+        run: dotnet restore
+
+      - name: Build (warnings are errors)
+        run: dotnet build --no-restore -c Release -warnaserror
+
+      - name: Test
+        run: dotnet test --no-build -c Release
+
+      - name: Test again under de-DE (everything except the slow streaming tests)
+        run: dotnet test --no-build -c Release --filter "FullyQualifiedName!~StreamingTests"
+        env:
+          CSVETL_TEST_CULTURE: de-DE
+
+      - name: CLI smoke test on the samples
+        run: |
+          CLI="dotnet src/CsvEtl.Cli/bin/Release/net10.0/csvetl.dll"
+          $CLI schema-check --schema samples/customers.schema.json --input samples/customers_messy.csv
+          # validate must exit 1 on the messy sample (rejects found)
+          set +e
+          $CLI validate --schema samples/customers.schema.json --input samples/customers_messy.csv --max-errors 5
+          code=$?
+          set -e
+          echo "validate exit code: $code"
+          test "$code" -eq 1
+          # clean exits 0 and writes all outputs
+          $CLI clean --schema samples/customers.schema.json --input samples/customers_messy.csv \
+            --output clean.csv --jsonl clean.jsonl --rejects rejects.csv --report report.json
+          wc -l clean.csv clean.jsonl rejects.csv
+          # --fail-on-reject turns rejects into exit code 1
+          set +e
+          $CLI clean --schema samples/customers.schema.json --input samples/customers_messy.csv --output /dev/null --fail-on-reject
+          code=$?
+          set -e
+          test "$code" -eq 1
+          # the committed sample is exactly what the generator writes
+          $CLI sample --rows 200 --seed 42 --bom --output regenerated.csv
+          cmp regenerated.csv samples/customers_messy.csv

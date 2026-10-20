@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <AssemblyName>csvetl</AssemblyName>
+    <RootNamespace>CsvEtl.Cli</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CsvEtl.Core\CsvEtl.Core.csproj" />
+  </ItemGroup>
+
+</Project>

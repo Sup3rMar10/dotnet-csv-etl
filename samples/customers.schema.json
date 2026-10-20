@@ -1,0 +1,84 @@
+{
+  // Schema for the synthetic customer export in customers_messy.csv. Comments are allowed.
+  "name": "customers",
+  "key": ["customer_id"],
+  "onDuplicate": "reject",
+  "columns": [
+    {
+      "name": "customer_id",
+      "aliases": ["Cust ID", "CustomerID"],
+      "type": "string",
+      "required": true,
+      "trim": true,
+      "case": "upper",
+      "regex": "^C\\d{6,9}$",
+      "onInvalid": "reject"
+    },
+    {
+      "name": "full_name",
+      "type": "string",
+      "required": true,
+      "trim": true,
+      "minLength": 3,
+      "maxLength": 60,
+      "onInvalid": "reject"
+    },
+    {
+      "name": "email",
+      "aliases": ["E-mail", "Email Address"],
+      "type": "string",
+      "trim": true,
+      "case": "lower",
+      "regex": "^[^@\\s]+@[^@\\s]+\\.[a-z]{2,}$",
+      "onInvalid": "null"
+    },
+    {
+      "name": "age",
+      "aliases": ["Age (yrs)"],
+      "type": "int",
+      "min": 0,
+      "max": 120,
+      "onInvalid": "null"
+    },
+    {
+      "name": "balance",
+      "aliases": ["Account Balance"],
+      "type": "decimal",
+      "required": true,
+      "min": -100000,
+      "max": 1000000,
+      "decimalSeparator": ".",
+      "onInvalid": "reject"
+    },
+    {
+      "name": "signup_date",
+      "aliases": ["Signup", "Signed Up"],
+      "type": "date",
+      "required": true,
+      "formats": ["yyyy-MM-dd", "dd.MM.yyyy", "d MMM yyyy"],
+      "min": "2015-01-01",
+      "max": "2030-12-31",
+      "onInvalid": "reject"
+    },
+    {
+      "name": "tier",
+      "type": "enum",
+      "allowed": ["bronze", "silver", "gold", "platinum"],
+      "default": "bronze",
+      "onInvalid": "default"
+    },
+    {
+      "name": "marketing_opt_in",
+      "aliases": ["Opt-In"],
+      "type": "bool",
+      "default": false,
+      "onInvalid": "default"
+    },
+    {
+      "name": "notes",
+      "type": "string",
+      "maxLength": 200,
+      "onInvalid": "null"
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+* text=auto eol=lf
+samples/customers_messy.csv -text
