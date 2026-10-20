@@ -7,7 +7,7 @@ parser are all written here, on purpose.
 
 All data in this repository is synthetic (fake names at example.com / example.test, no real people, no card numbers).
 
-CI not yet confirmed.
+CI ran green on the first run on GitHub Actions (ubuntu-latest, 2026-10-20).
 
 ## What it does
 
@@ -232,7 +232,7 @@ Output of that `clean` run: 922,329 clean rows (43,094 repaired), 77,671 rejecte
 
 ## How it is tested
 
-`dotnet test` runs **361 test cases** (xunit counts every theory row; about 140 `[Fact]` and 35 `[Theory]` methods). Last full local run: 361 passed, Windows, .NET SDK 10.0.402. The same suite was also run, passing, with `CSVETL_TEST_CULTURE=de-DE` and `=fr-FR` (330 cases at the time, before the mutation-driven tests were added). Not run on Linux/macOS yet.
+`dotnet test` runs **361 test cases** (xunit counts every theory row; about 140 `[Fact]` and 35 `[Theory]` methods). Last full local run: 361 passed, Windows, .NET SDK 10.0.402. The same suite was also run, passing, with `CSVETL_TEST_CULTURE=de-DE` and `=fr-FR` (330 cases at the time, before the mutation-driven tests were added). Not run by hand on Linux/macOS; CI ran the suite once on Ubuntu and it passed.
 
 - **Parser corpus**: 30 hand-written cases with exact expected rows (embedded CRLF in quotes, quote in the middle of an unquoted field, trailing delimiter, empty last line, BOM, header only, single column with empty value vs blank line, ...), delimiters, buffer-boundary reads at every buffer size, laziness, structured issues with line numbers, size limits.
 - **Seeded property test**: `write(rows) -> read == rows` for random rows made of quotes, commas, semicolons, tabs, CR, LF, CRLF, spaces, accents, CJK, emoji, U+FEFF, across 4 delimiters, 3 newline styles and random buffer sizes (3 seeds x 1500 iterations); the raw text of every record re-parses to the same fields.
@@ -273,7 +273,7 @@ Output of that `clean` run: 922,329 clean rows (43,094 repaired), 77,671 rejecte
 - Regexes are .NET regexes with a 500 ms timeout, not a sandbox for hostile patterns written by an attacker (schemas are trusted input).
 - No CSV/formula-injection sanitising on output (a cell starting with `=` is written as is).
 - Single-threaded; throughput is modest (see timing). Only tested on Windows with .NET 10 SDK 10.0.402; other operating systems have not been run locally.
-- CI not yet confirmed.
+- CI ran green on the first run on GitHub Actions (ubuntu-latest, 2026-10-20).
 
 ## Repository layout
 
